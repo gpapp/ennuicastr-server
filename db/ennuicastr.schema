@@ -88,6 +88,7 @@ CREATE TABLE IF NOT EXISTS recordings (
     port INTEGER,
     /* Recording name (user set) */
     name TEXT,
+    hostname TEXT,
     /* Recording format (user set, just a default) */
     format TEXT,
     /* Continuous mode? (user set, just a default) */
